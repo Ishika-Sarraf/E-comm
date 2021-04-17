@@ -1,0 +1,44 @@
+header{
+  background: pink;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+header div{
+float: right;
+padding: 1%;
+}
+body{
+  background: #f1f1f1;
+  margin: 1%;
+  font-size: 100%;
+}
+.logo{
+  height: 100px;
+  float: left;
+  margin-top: 20px;
+  
+  }
+  .main-nav{
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+    
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+    
+.main-nav li a{
+    padding: 5px 5px;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    font-size: 110%;
+    
+}
+.main-nav li a:hover{
+    border: 2px solid #fff;
+    padding-inline: 2px;
+}
