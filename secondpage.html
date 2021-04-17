@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>BLOSSOM| Login OR SIGN UP </title>
+        <link rel="stylesheet" type="text/css"href="css/Secondpage.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row" clearfix>
+                    <img src="images/logo3.png" class="logo">
+    
+                    <ul class="main-nav">
+                        <li><a href="firstpage.html">HOME</a></li>
+                    <li><a href="secondpage.html">LOGIN</a></li>
+                    <li><a href="thirdpage.html">PRODUCTS</a></li>
+                    <li><a href="fourthpage.html"><img src="images/cart.png" width="30px" height="30px"></a></li>
+                    
+                    </ul>
+                </div>
+            </nav>
+        <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+            <input type="text" placeholder="User Name"/>
+            <input type="text" placeholder="Password"/>
+            <input type="text" placeholder="Email Id"/>
+            <a href="thirdpage.html" class="button">SIGN-UP</a>
+            <p class="message">Already Registered? <a href="#">LOGIN</a>
+            </p>
+            </form>
+
+            <form class="login-for">
+            <input type="text" placeholder="User Name"/>
+            <input type="text" placeholder="Password"/>
+            <a href="thirdpage.html" class="button">LOGIN</a>
+            <p class="message"> Not Registered? <a href="#">SIGN UP</a></p>
+
+            </form>
+        </div>
+        </div>
+
+        <script src='https://code.jquery.com/jquery-3.5.1.min.js'>
+        </script>
+
+        <script>
+        $('.message a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");  
+        });
+        </script>
+    </body>
+</html>
